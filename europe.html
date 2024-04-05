@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Cheapest Countries to Study in Europe</title>
+  </head>
+
+  <style>
+    .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+  .small-image {
+    height: 22rem;
+  }
+
+
+  .nav-item a {
+     color: #0D01E8;
+    }
+
+
+  p {
+    font-size: medium;
+  }
+  
+  
+
+
+  </style>
+
+  <body>
+
+<!---->
+   
+    
+
+
+<nav class="navbar navbar-expand-md";>
+  <div class="header">
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+  </div>
+  
+  <div class="navbar-collapse">
+      <ul class="navbar-nav m-auto">
+      
+          <li class="nav-item mt-2">
+              <a class="nav-link" href="index.html"> &lt; Back </a>
+          </li>
+       
+      </ul>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="journey.html">Journey</a>
+          </li>
+        
+          
+        </ul>
+      </div>
+  </div>
+  </nav>
+
+
+    <div class="container-sm">
+
+    <h1 style="font-size: 50px;" class="mt-5 pt-5">
+Cheapest Countries to Study and Live in Europe    </h1>
+
+  
+  </div>
+
+
+<div class="container w-75">
+
+
+
+
+    
+        <div class="row py-5">
+          
+        
+         
+        
+        </div>
+    
+
+      
+        <div class="row">
+
+        
+          <div class="col-lg-10 text-center mx-auto">
+
+            <img src="assets/Europe.png" class="img-fluid text-end" alt="">
+      
+        </div>
+   
+
+        <p class="mt-5">
+          Explore a comprehensive analysis comparing the cost of living between Western and Eastern European countries. Utilizing a custom map visual, observe the economic disparities across the European continent. Highlighting categorical differences, the heatmap provides insights into the overall affordability dynamics across the continent.
+          <br><br>
+          The Dataset is from a weekly challenge which I will be participating in called Makeover Monday, a popular social data project that aims to improve data visualization and storytelling skills.
+
+        </p>
+
+        <div class="row py-5">
+
+
+        
+        
+        </div>
+    
+
+
+
+
+ </div>
+  
+
+<script>
+  function progressBarScroll() {
+  let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
+      height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
+      scrolled = (winScroll / height) * 100;
+  document.getElementById("progressBar").style.width = scrolled + "%";
+}
+
+window.onscroll = function () {
+  progressBarScroll();
+};
+</script>
+
+    
+  </body>
+
+  </html>
