@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Flowering Dates of the Cherry Blossoms in Japan</title>
+  </head>
+
+  <style>
+    .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+  .small-image {
+    height: 22rem;
+  }
+
+
+  .nav-item a {
+     color: #0D01E8;
+    }
+
+
+  p {
+    font-size: medium;
+  }
+  
+  
+
+
+  </style>
+
+  <body>
+
+<!---->
+   
+    
+
+
+<nav class="navbar navbar-expand-md";>
+  <div class="header">
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+  </div>
+  
+  <div class="navbar-collapse">
+      <ul class="navbar-nav m-auto">
+      
+          <li class="nav-item mt-2">
+              <a class="nav-link" href="index.html"> &lt; Back </a>
+          </li>
+       
+      </ul>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="journey.html">Journey</a>
+          </li>
+        
+          
+        </ul>
+      </div>
+  </div>
+  </nav>
+
+
+    <div class="container-sm">
+
+    <h1 style="font-size: 50px;" class="mt-5 pt-5">
+      Flowering Dates of the Cherry Blossoms in Japan</h1>
+
+  
+  </div>
+
+
+<div class="container w-75">
+
+
+
+
+    
+        <div class="row py-5">
+          
+        
+         
+        
+        </div>
+    
+
+      
+        <div class="row">
+
+        
+          <div class="col-lg-10 text-center mx-auto">
+
+            <img src="assets/cherry.png" class="img-fluid text-end" alt="">
+      
+        </div>
+   
+
+        <p class="mt-5">
+          I recently created a captivating connected scatterplot showcasing the bloom rate of cherry blossoms in Japan over the years. This unique visualization depicts the relationship between the year (on the x-axis) and the bloom date (e.g., April 15) on the y-axis. To add a visually appealing touch.
+          <br> <br>
+          Additionally, to enhance the overall presentation, I incorporated a background image onto the webpage. The chosen background image resonates with the theme of the report.
+          
+          I used the Deneb plugin to craft an interactive line chart with Vega-Lite. This chart illustrates the blooming years and dates of cherry blossoms. I customized the data points with flower icons to add appeal to the visualization.          
+        </p>
+
+        <div class="row py-5">
+
+
+        
+        
+        </div>
+    
+
+
+
+
+ </div>
+  
+
+<script>
+  function progressBarScroll() {
+  let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
+      height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
+      scrolled = (winScroll / height) * 100;
+  document.getElementById("progressBar").style.width = scrolled + "%";
+}
+
+window.onscroll = function () {
+  progressBarScroll();
+};
+</script>
+
+    
+  </body>
+
+  </html>
